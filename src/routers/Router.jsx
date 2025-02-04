@@ -113,7 +113,7 @@ export const router = createBrowserRouter([
           </AdminRoutr>
         ),
         loader: ({ params }) =>
-          fetch(`https://y-ten-dusky.vercel.app/menu/${params.id}`),
+          fetch(`http://localhost:5000/menu/${params.id}`),
       },
 
       {
